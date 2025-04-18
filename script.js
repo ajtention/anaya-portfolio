@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (contactForm) {
         contactForm.addEventListener("submit", (e) => {
-            e.preventDefault()
 
             // Basic form validation
             const name = document.getElementById("name").value.trim()
@@ -20,15 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Please enter a valid email address.")
             return
             }
-
-            // Placeholder for future node.js code //
-            console.log("Form submitted:", { name, email, message })
-
-            // Clear the form after submission
-            contactForm.reset()
-
-            // Show a success message
-            alert("Thank you for your message. I'll get back to you soon!")
+            
+            // Alert after user submits form
+            alert("Thank you for your message. I'll get back to you soon!");
         })
     }
 })
