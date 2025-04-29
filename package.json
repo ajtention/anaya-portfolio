@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ajtention/anaya-portfolio/issues"
   },
-  "homepage": "https://github.com/ajtention/anaya-portfolio#readme"
+  "homepage": "https://github.com/ajtention/anaya-portfolio#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
