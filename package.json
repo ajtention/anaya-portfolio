@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Welcome to my personal portfolio website! This site showcases my **projects, skills, and journey** as a data science student.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajtention/anaya-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajtention/anaya-portfolio/issues"
+  },
+  "homepage": "https://github.com/ajtention/anaya-portfolio#readme"
+}
